@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    background-image: url(../img/fundo4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(80%);
+    color: seashell;
+}
+
+h1{
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+.lista-animes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cartao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
